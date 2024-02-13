@@ -59,7 +59,7 @@ Design data models for OLTP database (Cassandra) and data warehouse (MySQL, Amaz
 ## 4. Project Structure
 
 ```bash
-Recruitment_Project
+Batch-Processing-Project
 ├── airflow
 │   ├── dags
 │   │   ├── create_redshift.py
@@ -70,20 +70,17 @@ Recruitment_Project
 │       ├── dag_processor_manager
 │       │   └── dag_processor_manager.log
 │       └── scheduler
-│           ├── 2023-09-03
-│           │   ├── dag (copy).py.log
-│           │   ├── dag.py.log
-│           │   └── dags_setup.py.log
 │           └── latest
 ├── assets
 │   ├── airflow_workflow.png
-│   ├── data_redshift.png
 │   ├── data_visualization.png
 │   ├── data_warehouse.png
-│   ├── ETL_Redshift.png
-│   ├── Generate_Data.png
+│   ├── ddl.png
+│   ├── extract.png
 │   ├── grafana_config.png
-│   └── project_architect_overview.png
+│   ├── load.png
+│   ├── project_architect_overview.png
+│   └── transform.png
 ├── docker-compose.yml
 ├── Input_Data
 │   ├── data_cassandra
@@ -111,6 +108,7 @@ Recruitment_Project
 ├── requirements.txt
 └── Transformed_Data
     └── Transformed_Data.csv
+
 ```
 
 <br>
